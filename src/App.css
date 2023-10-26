@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+.title{
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 4rem 0;;
+}
+.maintitle{
+    font-weight: 550;
+    font-size: 2.5rem;
+    margin: 3rem 0;;
+}
+.subtitle{
+    font-weight: 450;
+    font-size: 2rem;
+    margin: 2rem 0;;
+}
+.mb-4{
+    margin: 4rem;
+}
+.mb-2{
+    margin: 2rem;
+}
+.d-flex{
+    display: flex;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.btn-danger{
+    background-color: rgb(255, 1, 1);
+}
+.btn-info{
+    background-color: rgb(81, 234, 242);
+}
+.btn-success{
+    background-color: rgb(23, 243, 96);
+}
+.btn-primary{
+    background-color: rgb(21, 110, 252);
+}
+.btn-warning{
+    background-color: rgb(239, 255, 19);
+    color: rgb(0, 0, 0);
+}
+.m-auto{
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.card{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+.card-dark{
+    background-color: rgb(57, 57, 57);
+    color: aliceblue;
+}
+.card-header{
+    height: 20%;
+    padding: 10px 0 ;
+}
+.fs-xl{
+    font-size: x-large;
+    font-weight: 600;
+}
+.card-footer{
+    height: 20%;
+    padding: 10px 0 ;
+}
+.mr-1{
+    margin-right: 10px;
+}
+.mr-2{
+    margin-right: 20px;
+}
+.text-danger{
+    color: red;
+}
+.shadow-sm{
+    box-shadow: 2px 2px 2px#bbb ;
+}
+.card-primary{
+    width: 100%;
+    height: auto;
+    padding:5px;
+    padding-left: 20px;
+    background-color: blueviolet;
+}
+.mx-auto{
+    margin: auto 0 ;
+}
+.alert{
+    width: 50%;
+    height: 50px;
+    background-color: #bbb;
+    border:1.5px solid #919090;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 2.5;
+    font-size: larger;
+}
+.alert-success{
+    background-color: #5cf873;
+    border: 1.5px solid #41b452;
+    width: 50%;
+}
+.alert-info{
+    background-color: #55e0ff;
+    border: 1.5px solid #348a9d;
+    width: 50%;
+}
+.alert-close{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding:0 10px;
+    justify-content: space-between;
+}
+.btn-close{
+    position: relative;
+    color: black;
+    background-color: transparent;
+}
+.btn-close:hover{
+    color: red;
+}
+.fade-alert{
+    animation: fadeAlert 1s ease-in-out;
+}
+@keyframes fadeAlert{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0);
+    }
+}
