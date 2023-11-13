@@ -7,6 +7,7 @@
 
 .text-center{
     text-align: center;
+    vertical-align: auto;
 }
 .title{
     font-weight: 600;
@@ -29,12 +30,18 @@
 .mb-2{
     margin: 2rem;
 }
+.p-1{
+    padding: 30px;
+}
+.mt-3{
+    margin-top: 30px;
+}
 .d-flex{
     display: flex;
 }
 .btn{
     background-color: black;
-    color: aliceblue;
+    color: rgb(120, 192, 255);
     padding: 8px;
     font-size: larger;
     border-radius: 10px;
@@ -105,6 +112,9 @@
 .mx-auto{
     margin: auto 0 ;
 }
+.mx-autos{
+    margin: auto;
+}
 .alert{
     width: 50%;
     height: 50px;
@@ -152,4 +162,24 @@
         opacity: 0;
         transform: scale(0);
     }
+}
+.bg-light{
+    background-color: #d0cfd2;
+}
+.text-light{
+    color:#dbffe1
+}
+.border-50{
+    border-radius: 50%;
+}
+.btn-lg{
+    padding:10px 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.bg-info{
+    background-color: rgb(0, 13, 255);
+}
+.bg-danger{
+    background-color: rgb(255, 0, 0);
 }
